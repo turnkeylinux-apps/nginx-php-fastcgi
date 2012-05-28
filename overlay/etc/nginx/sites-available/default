@@ -1,0 +1,19 @@
+server {
+    listen 0.0.0.0:80;
+    root /var/www/;
+    index index.html index.php;
+
+    include /etc/nginx/include/php;
+}
+
+server {
+    listen 0.0.0.0:443;
+    root /var/www/;
+    index index.html index.php;
+
+    fastcgi_param HTTPS on;
+    include /etc/nginx/include/ssl;
+    include /etc/nginx/include/php;
+}
+
+
