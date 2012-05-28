@@ -1,0 +1,12 @@
+server {
+    listen 0.0.0.0:12322;
+    root /usr/share/phpmyadmin/;
+    index index.php;
+
+    fastcgi_param HTTPS on;
+    include /etc/nginx/include/ssl;
+    include /etc/nginx/include/php;
+}
+
+
+
