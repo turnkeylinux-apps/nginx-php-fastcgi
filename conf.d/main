@@ -1,0 +1,9 @@
+#!/bin/sh -ex
+
+# setup fastcgi/nginx
+update-rc.d php-fastcgi defaults
+
+mkdir -p /var/run/nginx
+chown root:www-data /var/run/nginx
+chmod 770 /var/run/nginx
+

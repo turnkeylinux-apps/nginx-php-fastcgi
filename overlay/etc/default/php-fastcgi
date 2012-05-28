@@ -1,0 +1,14 @@
+START=yes
+
+# Which user runs PHP? (default: www-data)
+
+EXEC_AS_USER=www-data:www-data
+
+# Host and TCP port for FASTCGI-Listener (default: localhost:9000)
+
+PHP_FCGI_SOCKET=/var/run/nginx/$NAME.sock
+
+# Environment variables, which are processed by PHP
+
+PHP_FCGI_CHILDREN=2
+PHP_FCGI_MAX_REQUESTS=1000
