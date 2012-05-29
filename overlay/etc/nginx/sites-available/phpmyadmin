@@ -3,6 +3,10 @@ server {
     root /usr/share/phpmyadmin/;
     index index.php;
 
+    location /setup/index.php {
+        deny all;
+    }
+
     fastcgi_param HTTPS on;
     include /etc/nginx/include/ssl;
     include /etc/nginx/include/php;
