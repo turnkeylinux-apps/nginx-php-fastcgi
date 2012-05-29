@@ -5,4 +5,4 @@ COMMON_CONF += tkl-webcp phpmyadmin postfix-local
 
 include $(FAB_PATH)/common/mk/turnkey/php.mk
 include $(FAB_PATH)/common/mk/turnkey/mysql.mk
-include $(FAB_PATH)/common/mk/turnkey.mm
+include $(FAB_PATH)/common/mk/turnkey.mk
