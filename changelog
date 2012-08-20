@@ -1,7 +1,7 @@
-turnkey-lemp-12.0 (1) turnkey; urgency=low
+turnkey-nginx-php-fastcgi-12.0 (1) turnkey; urgency=low
 
-  * Initial public release of TurnKey LEMP stack, based on TKLPatch submitted
-    by Basil Kurian.
+  * Initial public release of TurnKey Nginx PHP FastCGI Server, based on
+    TKLPatch submitted by Basil Kurian.
 
   * Nginx configured to proxy PHP request to PHP-FastCGI daemon.
 
