@@ -8,5 +8,5 @@ chown root:www-data /var/run/nginx
 chmod 770 /var/run/nginx
 
 # enable phpmyadmin
-ln -s /etc/nginx/sites-available/phpmyadmin /etc/nginx/sites-enabled/phpmyadmin 
+ln -s /etc/nginx/sites-available/adminer /etc/nginx/sites-enabled/adminer 
 
