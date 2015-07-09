@@ -12,7 +12,7 @@ webmin-phpini
 
 mysql-server
 webmin-mysql
-phpmyadmin
+adminer
 
 postfix
 webmin-postfix

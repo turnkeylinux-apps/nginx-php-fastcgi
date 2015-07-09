@@ -1,0 +1,24 @@
+server {
+    listen 0.0.0.0:12322;
+    root /usr/share/adminer/adminer/;
+    index index.php;
+
+    location /adminer/ {
+        alias /usr/share/adminer/adminer/;
+    }
+
+    location /adminer-editor/ {
+        alias /usr/share/adminer/editor/;
+    }
+
+    location /externals/ {
+        alias /usr/share/adminer/externals/;
+    }
+
+    fastcgi_param HTTPS on;
+    include /etc/nginx/include/ssl;
+    include /etc/nginx/include/php;
+}
+
+
+
