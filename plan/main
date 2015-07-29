@@ -13,8 +13,3 @@ webmin-phpini
 mysql-server
 webmin-mysql
 adminer
-
-postfix
-webmin-postfix
-
-
