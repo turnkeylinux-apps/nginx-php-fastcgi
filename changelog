@@ -3,6 +3,8 @@ turnkey-nginx-php-fastcgi-14.0 (1) turnkey; urgency=low
   * Latest Debian Jessie package version of all components.
 
   * Adminer replaces phpMyAdmin for MySQL DB administration.
+  
+  * Hardened default SSL config.
 
   * Note: Please refer to turnkey-core's changelog for changes common to all'
     appliances. Here we only describe changes specific to this appliance.
