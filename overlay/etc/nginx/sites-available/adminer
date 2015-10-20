@@ -1,5 +1,5 @@
 server {
-    listen 0.0.0.0:12322;
+    listen 12322 ssl;
     root /usr/share/adminer/adminer/;
     index index.php;
 

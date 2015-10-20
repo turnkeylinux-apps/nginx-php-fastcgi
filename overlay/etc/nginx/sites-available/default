@@ -7,7 +7,7 @@ server {
 }
 
 server {
-    listen 0.0.0.0:443;
+    listen 443 ssl;
     root /var/www/;
     index index.html index.php;
 
