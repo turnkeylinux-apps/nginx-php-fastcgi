@@ -56,7 +56,7 @@
                           <a href="/phpinfo.php">Nginx PHP information</a>
                           (to disable: rm /var/www/phpinfo.php)
                         </li>
-                        <li><a href="http://www.turnkeylinux.org/nginx-php-fastcgi">TurnKey appliance release notes</a></li>
+                        <li><a href="https://www.turnkeylinux.org/nginx-php-fastcgi">TurnKey appliance release notes</a></li>
                     </ul>
 
                 </div>
