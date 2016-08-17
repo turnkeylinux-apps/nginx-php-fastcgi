@@ -1,3 +1,9 @@
+turnkey-nginx-php-fastcgi-14.1 (2) turnkey; urgency=medium
+
+  * Modified fastcgi_params as part of issue #685 (httpoxy)
+
+ -- Stefan Davis <stefan@turnkeylinux.org>  Tue, 16 Aug 2016 05:36:22 +1000
+
 turnkey-nginx-php-fastcgi-14.1 (1) turnkey; urgency=low
 
   * Installed security updates.
