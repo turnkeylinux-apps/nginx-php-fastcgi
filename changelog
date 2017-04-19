@@ -1,3 +1,18 @@
+turnkey-nginx-php-fastcgi-14.2 (1) turnkey; urgency=low
+
+  * Installed security updates.
+
+  * Updated Adminer to 4.2.5
+
+  * Updated to use common turnkey configuration.
+
+  * Removed php-xcache (op cache enabled by default in php)
+
+  * Note: Please refer to turnkey-core's changelog for changes common to all
+    appliances. Here we only describe changes specific to this appliance.
+
+ -- Stefan Davis <stefan@turnkeylinux.org>  Wed, 19 Apr 2017 10:42:17 +1000
+
 turnkey-nginx-php-fastcgi-14.1 (2) turnkey; urgency=medium
 
   * Modified fastcgi_params as part of issue #685 (httpoxy)
