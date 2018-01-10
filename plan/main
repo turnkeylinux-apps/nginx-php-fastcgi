@@ -2,11 +2,11 @@
 
 nginx
 
-php5-gd
-php5-cli
-php5-cgi
-php5-curl
-php5-mysql
+php-gd
+php-cli
+php-cgi
+php-curl
+php-mysql
 webmin-phpini
 
 mysql-server
