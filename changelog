@@ -1,3 +1,16 @@
+turnkey-nginx-php-fastcgi-15.0 (1) turnkey; urgency=low
+
+  * Update to PHP7
+
+  * Install Adminer directly from stretch/main repo
+
+  * Replace MySQL with MariaDB
+
+  * Note: Please refer to turnkey-core's changelog for changes common to all
+    appliances. Here we only describe changes specific to this appliance.
+
+ -- Vlad Kuzmenko <vlad.work.here@gmail.com>  Sat, 10 Jan 2017 03:41:42 +1000
+
 turnkey-nginx-php-fastcgi-14.2 (1) turnkey; urgency=low
 
   * Installed security updates.
