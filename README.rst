@@ -11,6 +11,7 @@ This appliance includes all the standard features in `TurnKey Core`_,
 and on top of that:
 
 - Nginx configured to proxy PHP requests to the PHP-FastCGI daemon.
+- MariaDB (drop-in MySQL replacement).
 - Includes TurnKey Web Control panel with links to useful
   references and resources (convenience).
 - SSL support out of the box.
@@ -23,8 +24,9 @@ and on top of that:
 Credentials *(passwords set at first boot)*
 -------------------------------------------
 
--  Webmin, SSH, MySQL, Adminer: username **root**
+-  Webmin, SSH, MySQL: username **root**
 
+-  Adminer: username **adminer**
 
 .. _Nginx: http://nginx.org
 .. _TurnKey Core: https://www.turnkeylinux.org/core
