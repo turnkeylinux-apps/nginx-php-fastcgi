@@ -1,15 +1,19 @@
 turnkey-nginx-php-fastcgi-15.0 (1) turnkey; urgency=low
 
-  * Update to PHP7
-
   * Install Adminer directly from stretch/main repo
 
-  * Replace MySQL with MariaDB
+  * Provide "adminer" root-like user for Adminer MySQL access
+
+  * Replace MySQL with MariaDB (drop-in MySQL replacement)
+
+  * Includes PHP7.0 (installed from Debian repos)
+
+  * Updated PHP default settings
 
   * Note: Please refer to turnkey-core's changelog for changes common to all
     appliances. Here we only describe changes specific to this appliance.
 
- -- Vlad Kuzmenko <vlad.work.here@gmail.com>  Sat, 10 Jan 2017 03:41:42 +1000
+ -- Vlad Kuzmenko <vlad.work.here@gmail.com>  Tue, 19 Jun 2018 03:41:42 +0300
 
 turnkey-nginx-php-fastcgi-14.2 (1) turnkey; urgency=low
 
