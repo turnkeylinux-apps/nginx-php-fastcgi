@@ -1,3 +1,10 @@
+turnkey-nginx-php-fastcgi-15.1 (1) turnkey; urgency=low
+
+  * Rebuild to resolve inadvertant removal of mariadb during sec-updates
+    - part of #1246.
+
+ -- Jeremy Davis <jeremy@turnkeylinux.org>  Wed, 21 Nov 2018 18:29:07 +1100
+
 turnkey-nginx-php-fastcgi-15.0 (1) turnkey; urgency=low
 
   * Install Adminer directly from stretch/main repo
