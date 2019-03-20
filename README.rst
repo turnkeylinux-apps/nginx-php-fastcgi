@@ -1,16 +1,16 @@
-Nginx PHP FastCGI Server Configuration - with Adminer
+NGINX PHP FastCGI Server Configuration - with Adminer
 =====================================================
 
-`Nginx`_ is a web server, load balancer and reverse proxy with a strong
+`NGINX`_ is a web server, load balancer and reverse proxy with a strong
 focus on performance, high concurency (over 10,000 simultaneous
 connections), and low memory usage. It powers many of the world's
-largest websites. Nginx can deploy dynamic HTTP content such as PHP
+largest websites. NGINX can deploy dynamic HTTP content such as PHP
 scripts using the FastCGI interface.
 
 This appliance includes all the standard features in `TurnKey Core`_,
 and on top of that:
 
-- Nginx configured to proxy PHP requests to the PHP-FastCGI daemon.
+- NGINX configured to proxy PHP requests to the PHP-FastCGI daemon.
 - MariaDB (drop-in MySQL replacement).
 - Includes TurnKey Web Control panel with links to useful
   references and resources (convenience).
@@ -28,6 +28,6 @@ Credentials *(passwords set at first boot)*
 
 -  Adminer: username **adminer**
 
-.. _Nginx: http://nginx.org
+.. _NGINX: http://nginx.org
 .. _TurnKey Core: https://www.turnkeylinux.org/core
 .. _Adminer: http://www.adminer.org
