@@ -9,6 +9,6 @@ php-curl
 php-mysql
 webmin-phpini
 
-mysql-server
+default-mysql-server
 webmin-mysql
 adminer
