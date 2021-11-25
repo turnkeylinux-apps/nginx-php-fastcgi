@@ -1,13 +1,2 @@
 #include <turnkey/base>
-#include <turnkey/mysql>
-
-nginx
-
-php-gd
-php-cli
-php-cgi
-php-curl
-php-mysql
-webmin-phpini
-
-adminer
+#include <turnkey/nginx-php-fpm-mysql>
