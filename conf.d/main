@@ -1,3 +1,6 @@
 #!/bin/sh -ex
 
 # previous conf moved to common, but we may still need to do something here?!
+
+# test nginx config - if invalid will fail
+nginx -t
