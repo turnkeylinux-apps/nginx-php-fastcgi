@@ -1,3 +1,29 @@
+turnkey-nginx-php-fastcgi-17.0 (1) turnkey; urgency=low
+
+  * Updated all relevant Debian packages to Bullseye/11 versions; including
+    PHP 7.4.
+
+  * Now using default Debian PHP-FPM config (previously we supplied our own
+    custom fastcgi service and setup).
+
+  * Provide predefined dh_params (via 'turnkey-make-ssl-cert' where relevant)
+    as per RFC7919 - part of #1653.
+
+  * Use default Debian PHP-FPM config (previously we supplied our own
+    custom fastcgi service and setup).
+
+  * Prepare HSTS and OCSP stapling configuration (not fully enabled by default
+    - as requires valid SSL/TLS cert).
+
+  * Updated version of mysqltuner script.
+
+  * Refactored config files to be consistent with upstream/Debian defaults.
+
+  * Note: Please refer to turnkey-core's changelog for changes common to all
+    appliances. Here we only describe changes specific to this appliance.
+
+ -- Jeremy Davis <jeremy@turnkeylinux.org>  Wed, 06 Apr 2022 05:06:02 +0000
+
 turnkey-nginx-php-fastcgi-16.1 (1) turnkey; urgency=low
 
   * Note: Please refer to turnkey-core's 16.1 changelog for changes common to
@@ -157,4 +183,3 @@ turnkey-nginx-php-fastcgi-12.0 (1) turnkey; urgency=low
     appliances. Here we only describe changes specific to this appliance.
 
  -- Alon Swartz <alon@turnkeylinux.org>  Wed, 01 Aug 2012 08:00:00 +0200
-
