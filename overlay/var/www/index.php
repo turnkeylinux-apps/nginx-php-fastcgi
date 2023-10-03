@@ -33,11 +33,6 @@
                 <div class="fragment-content">
                     <div>
                         <a href="https://<?php print
-                        $_SERVER['HTTP_HOST']; ?>:12320"><img
-                        src="images/shell.png"/>Web Shell</a>
-                    </div>
-                    <div>
-                        <a href="https://<?php print
                         $_SERVER['HTTP_HOST']; ?>:12321"><img
                         src="images/webmin.png"/>Webmin</a>
                     </div>
