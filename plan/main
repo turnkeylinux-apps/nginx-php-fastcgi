@@ -1,2 +1,4 @@
 #include <turnkey/base>
 #include <turnkey/nginx-php-fpm-mysql>
+
+mysqltuner

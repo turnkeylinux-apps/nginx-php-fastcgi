@@ -1,3 +1,18 @@
+turnkey-nginx-php-fastcgi-19.0 (1) turnkey; urgency=low
+
+  * Upgrade the base distribution to Debian 13/Trixie.
+
+  * Update Nginx, PHP-FPM, MariaDB and Adminer from the Debian Trixie
+    repositories. PHP remains served through the packaged FastCGI
+    configuration.
+
+  * Use Debian's mysqltuner package in place of the inherited mutable upstream
+    download.
+
+  * See the TurnKey Core 19.0 changelog for changes common to all appliances.
+
+ -- TurnKey Linux release engineering <release@turnkeylinux.org>  Mon, 24 Aug 2026 00:00:00 +0000
+
 turnkey-nginx-php-fastcgi-18.0 (1) turnkey; urgency=low
 
   * Ensure hashfile includes URL to public key - closes #1864.
