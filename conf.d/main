@@ -4,3 +4,9 @@
 
 # test nginx config - if invalid will fail
 nginx -t
+
+# Trixie packages mysqltuner. Discard the mutable upstream copies downloaded
+# by the inherited MySQL profile so the installed command remains APT-managed.
+rm -f /usr/local/bin/mysqltuner \
+      /usr/local/bin/basic_passwords.txt \
+      /usr/local/bin/vulnerabilities.csv
